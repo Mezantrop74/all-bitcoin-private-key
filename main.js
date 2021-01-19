@@ -240,7 +240,6 @@ class HomeComponent {
         this.route = route;
         this.router = router;
         this.displayedColumns = [
-            'id',
             'privateKey',
             'addressUnCompressed',
             'addressUnCompressedBalance',
