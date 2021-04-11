@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit {
 
   page = '1';
   // limitPerPage = 1;
-  limitPerPage = 16;
+  limitPerPage = 128;
   resultsLength = this.maxNumber.toString(10);
   maxPage = this.maxNumber.dividedBy(this.limitPerPage).toFixed(0);
 
